@@ -39,7 +39,7 @@ main {
     flex-direction: row; /* keeps them side by side */
     gap: 10px; /* the magic you were missing */
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 10px;
     margin-bottom: 10px;
 }

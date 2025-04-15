@@ -1,6 +1,6 @@
 // noinspection JSValidateTypes
 
-import pic from './img/FaceApp_1700119687255.png';
+import pic from "./img/profile_img.jpg"
 
 export default function ProfileSection() {
     // noinspection JSValidateTypes
