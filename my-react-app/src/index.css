@@ -11,14 +11,14 @@
 
 a {
   font-weight: 500;
-  color: #4e436d;
+  color: #f0f0f0;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
 }
 h1 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Special Gothic Expanded One", sans-serif;
   font-size: 2.5rem;
 }
 
@@ -28,7 +28,7 @@ h1 {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #535bf2;
   }
   button {
     background-color: #f9f9f9;

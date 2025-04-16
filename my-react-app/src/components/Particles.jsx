@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Renderer, Camera, Geometry, Program, Mesh } from "ogl";
 
 
-const defaultColors = ["#ffffff", "#4e436d", "#2a156f"];
+const defaultColors = ["#ffffff", "#fafafc", "rgba(240,237,245,0.63)"];
 
 const hexToRgb = (hex) => {
     hex = hex.replace(/^#/, "");
@@ -76,7 +76,7 @@ const fragment = /* glsl */ `
 `;
 
 const Particles = ({
-                       particleCount = 200,
+                       particleCount = 600,
                        particleSpread = 10,
                        speed = 0.1,
                        particleColors,

@@ -1,7 +1,6 @@
 export default function LinksSection() {
     return (
         <section className="tiles-container">
-
             <a
                 className="tile"
                 href="https://www.linkedin.com/in/amanda-helmer-4a47b6269/"
@@ -16,7 +15,6 @@ export default function LinksSection() {
                     {/* Share SVG */}
                 </div>
             </a>
-
             <a
                 className="tile"
                 href="https://github.com/helmera83"

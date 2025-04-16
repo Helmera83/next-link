@@ -1,20 +1,36 @@
-// noinspection JSValidateTypes
-
-import pic from "./img/profile_img.jpg"
+import GradientText from './GradientText'
+import {MdOutlineEmail, MdOutlineLocationOn, MdOutlinePhone} from "react-icons/md";
+import pic from "./img/profile_img.jpg";
 
 export default function ProfileSection() {
-    // noinspection JSValidateTypes
     return (
         <section className="container">
             <div className="image-container">
                 <img src={pic} alt="Amanda Helmer portrait" />
             </div>
-            <h1>Amanda Helmer</h1>
+            <GradientText
+                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                animationSpeed={3}
+                showBorder={false}
+                className="custom-class"
+            >
+                <h1>Amanda Helmer</h1>
+            </GradientText>
             <div className="info">
-                <a href="mailto:ahelmer@mail.com">ahelmer@mail.com</a><br />
-                <a href="tel:14304400056">(405) 440-0056</a>
+                <a href="tel:14697700299">
+                    <MdOutlinePhone style={{ marginRight: "8px" }} />
+                    (469) 770-0299
+                </a>
+                <a href="mailto:helmeramanda90@gmail.com">
+                    <MdOutlineEmail style={{ marginRight: "8px" }} />
+                    helmeramanda90@gmail.com
+                </a>
+                <a href="https://maps.app.goo.gl/SSnZAHgqiZaFduKW9">
+                    < MdOutlineLocationOn style={{ marginRight: "8px" }} />
+                   Durant OK, 74701
+                </a>
+                <br/>
             </div>
         </section>
     );
 }
-
