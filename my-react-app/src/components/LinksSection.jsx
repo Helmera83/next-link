@@ -34,7 +34,7 @@ export default function LinksSection() {
 
             <a
                 className="tile"
-                href="https://vercel.com/helmera83s-projects/next-res-2"
+                href="https://next-res-2-gold.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
             >
